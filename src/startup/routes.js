@@ -1,6 +1,7 @@
 import { Home } from 'home'
 import { About } from 'about'
 import { Terms } from 'terms'
+import { Lessons } from 'lessons'
 import { Privacy } from 'privacy'
 
 export const routesPath = {
@@ -28,5 +29,9 @@ export const routes = [
   {
     path: routesPath.About,
     Component: About,
+  },
+  {
+    path: '/lessons',
+    Component: Lessons,
   },
 ]
